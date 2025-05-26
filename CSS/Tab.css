@@ -1,3 +1,12 @@
+
+.tabs{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 20px;
+    left: 50px;
+    top:100px;
+}
 .nav-tabs{
     display: flex;
     flex-direction: column;
@@ -11,6 +20,9 @@
     background-color: gainsboro;
     width: 200px;
     height: 190px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
 }
 
 .det{
