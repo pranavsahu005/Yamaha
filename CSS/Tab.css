@@ -1,0 +1,43 @@
+.nav-tabs{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap:40px;
+    left:75%;
+}
+.nav-img img{
+    position: relative;
+    top: 600px;
+    background-color: gainsboro;
+    width: 200px;
+    height: 190px;
+}
+
+.det{
+    padding: 25px;
+}
+.det span a{
+    font-family:sans-serif;
+    font-weight: 700;
+    gap:30px;
+    top:-20px;
+    position: relative;
+    font-size: 35px;
+}
+.det h1{
+    color: #2632d6;
+    font-weight: 700;
+}
+.det h1 p{
+    color: #585656;
+}
+.det button{
+    color: white;
+    background-color:blue;
+    border:none;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 18px;
+    width: 148px;
+    height: 48px;
+}

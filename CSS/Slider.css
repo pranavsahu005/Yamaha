@@ -1,0 +1,83 @@
+
+.slider2 {
+    margin-top: 100px;
+    width: 100%;
+    height: 900px;
+    z-index: 1;
+    position: absolute;
+}
+.carousel-inner {
+    margin-top: 70px;
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+    position: absolute;
+}
+.cont1  iframe{
+    width: 100%;
+    height: 550px;
+}
+.cont2 {
+    width: 100%;
+    height: 500px;
+    background-image: url(/Images/Banner1.jpg);
+    background-size: cover;
+}
+
+.cont3 {
+    width: 100%;
+    height: 500px;
+    background-image: url(/Images/banner3.jpg);
+    background-size: cover;
+}
+
+
+.cointener {
+    z-index: 2;
+    position: relative;
+    top: 380px;
+    right: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    width: 100vw;
+}
+
+.cointener .box {
+    border-radius: 5%;
+    width: 100px;
+    height: 1px;
+    display: flex;
+    background-color: #fff;
+    border: 2px solid rgb(253, 252, 252);
+    box-shadow: 0px 10px 20px black;
+}
+.cointener :active {
+    background-color: #2632d6;
+     border: 2px solid rgb(44, 2, 233);
+    color: #fff;
+}
+
+/**nd Slider **/
+
+.moto2 img{
+    width: 100%;
+     height: 65vh;
+}
+.cointener2 {
+    z-index: 2;
+    position: relative;
+    top: 670px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.cointener2 .pic {
+    width: 100%;
+    height: 210px;
+    display: flex;
+}
