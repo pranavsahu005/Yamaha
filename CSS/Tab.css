@@ -1,22 +1,19 @@
-.tabs {
+.content {
+    width: 950px;
+    height: 620px;
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    left: 50px;
-    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-left: 150px;
 }
 
 .showbike {
     position: relative;
     display: block;
-    width: 800px;
-    height: 50px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    left: 10%;
     font-size: 30px;
     font-weight: 600;
     font-family: sans-serif;
@@ -30,60 +27,57 @@
     height: 50px;
     border-radius: 20px;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 30px;
     cursor: pointer;
     align-items: center;
     justify-content: center;
     top: 500px;
 }
 
-.series {
-    display: flex;
+.series button {
     gap: 10px;
     margin-left: 100px;
     margin-top: 20px;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: 600;
-    font-family: sans-serif;
-    display: block;
-    width: 800px;
-    height: 50px;
-    display: flex;
-}
-
-.det {
-    top: -40px;
-    position: relative;
-}
-
-.det span a {
-    font-family: sans-serif;
-    font-weight: 700;
     font-size: 35px;
-    position: relative;
-    top: -20px;
-}
-
-.det h1 {
-    color: #2632d6;
-    font-weight: 700;
-}
-
-.det p {
-    color: #585656;
-}
-
-.det button {
-    color: white;
-    background-color: blue;
-    border: none;
     font-weight: 600;
-    padding: 5px;
-    font-size: 18px;
-    width: 148px;
-    height: 48px;
-    margin-top: 10px;
+}
+
+.series {
+    font-family: sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box1 {
+    position: block;
+    width: 500px;
+    height: 600px;
+    background-color: rgb(223, 253, 255);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box2 {
+    position: relative;
+    top: -600px;
+    margin-left: 500px;
+    width: 190px;
+    height: 600px;
+    background-color: rgb(180, 175, 175);
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box3 {
+    width: 500px;
+    height: 600px;
+    background-color: rgb(246, 255, 165);
 }
 
 .nav-img {
@@ -91,10 +85,8 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 100px;
     gap: 20px;
     padding: 20px;
-    left: 500px;
 }
 
 .nav-img img {
@@ -103,17 +95,11 @@
     height: 150px;
     border: 1px solid #000000;
     cursor: pointer;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    position: relative;
 }
 
-
-.det {
-    padding: 25px;
+.road img{
+    width: 200px;
+    height: 600px;
 }
 
 .det span a {
@@ -123,6 +109,7 @@
     position: relative;
     font-size: 35px;
     display: inline-block;
+    color: black;
 }
 
 .det h1 {
@@ -132,15 +119,4 @@
 
 .det h1 p {
     color: #585656;
-}
-
-.det button {
-    color: white;
-    background-color: blue;
-    border: none;
-    font-weight: 600;
-    padding: 5px;
-    font-size: 18px;
-    width: 148px;
-    height: 48px;
 }
