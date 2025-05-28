@@ -53,7 +53,7 @@
     position: block;
     width: 500px;
     height: 600px;
-    background-color: rgb(223, 253, 255);
+    background-color: rgb(151, 223, 228);
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -72,6 +72,7 @@
     color: white;
     padding: 20px;
     box-sizing: border-box;
+    background-image: url(/Images/black-charcoal-effect-mud-texture-260nw-1873216441.jpg);
 }
 
 .box3 {
