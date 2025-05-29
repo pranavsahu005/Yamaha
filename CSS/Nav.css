@@ -1,0 +1,41 @@
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 8vh;
+    font-size: 17.6px;
+}
+
+.nav-logo img {
+    width: 120px;
+    height: 40px;
+    position: relative;
+    left: -30px;
+    top:-12px;
+}
+.bar .nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black; 
+
+    position: relative;
+}
+.bar .nav-link:hover {
+    color: rgb(109, 109, 109);
+}
+.bar .nav-search{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 28px; 
+    position: relative;
+}
+.bar .nav-link ion-icon{
+    padding: 5px;
+    font-size: 15px;
+}
