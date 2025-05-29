@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 .content {
     width: 950px;
     height: 620px;
@@ -23,7 +33,7 @@
     display: flex;
     padding: 10px;
     margin: 20px;
-    width: 200px;
+    width: 230px;
     height: 50px;
     border-radius: 20px;
     font-weight: 600;
@@ -34,12 +44,18 @@
     top: 500px;
 }
 
+.showbike li a {
+    text-decoration: none;
+}
+
 .series button {
     gap: 10px;
     margin-left: 100px;
-    margin-top: 20px;
+    margin-top: -10px;
+    margin-bottom: 20px;
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 200;
+    color: gray;
 }
 
 .series {
@@ -51,21 +67,22 @@
 
 .box1 {
     position: block;
-    width: 500px;
+    width: 550px;
     height: 600px;
-    background-color: rgb(151, 223, 228);
+    margin-left: 120px;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
+    position: block;
 }
 
 .box2 {
     position: relative;
     top: -600px;
-    margin-left: 500px;
-    width: 190px;
-    height: 600px;
+    margin-left: 700px;
+    width: 185px;
+    height: 700px;
     background-color: rgb(180, 175, 175);
     display: flex;
     justify-content: center;
@@ -75,10 +92,22 @@
     background-image: url(/Images/black-charcoal-effect-mud-texture-260nw-1873216441.jpg);
 }
 
+.box2 .road {
+    margin-left: 150px;
+}
+
 .box3 {
     width: 500px;
     height: 600px;
-    background-color: rgb(246, 255, 165);
+    margin-left: 180px;
+    position: block;
+    margin-top: 10px;
+}
+
+.bikeimg .btn {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: -9px;
 }
 
 .nav-img {
@@ -88,17 +117,21 @@
     position: relative;
     gap: 20px;
     padding: 20px;
+    text-decoration: none;
 }
 
+.nav-img:hover {
+    border-left: 5px solid #2632d6;
+}
+
+
 .nav-img img {
-    background-color: gainsboro;
-    width: 150px;
-    height: 150px;
-    border: 1px solid #000000;
+    width: 170px;
+    height: 160px;
     cursor: pointer;
 }
 
-.road img{
+.road img {
     width: 200px;
     height: 600px;
 }
@@ -111,13 +144,36 @@
     font-size: 35px;
     display: inline-block;
     color: black;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 
 .det h1 {
     color: #2632d6;
     font-weight: 700;
+    font-size: 32px;
 }
 
 .det h1 p {
     color: #585656;
+    font-size: 10px;
+}
+
+
+.info {
+    flex: 4;
+
+    margin-left: -80px;
+}
+
+.bikeimg {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    overflow: scroll;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 600px;
+    margin-left: -300px;
 }
