@@ -61,15 +61,84 @@
      z-index: 1;
  }
 
-.timers{
-    width: 70%;
-    height: 22%;
-    background-color: blue;
-    position: absolute;
-    bottom: -60px;
-   left: 15%;
+ .timers {
+     width: 70%;
+     height: 23%;
+     background-color:blue;
+     position: absolute;
+     bottom: -60px;
+     left: 15%;
+ }
+
+ .timers .picture img {
+     width: 400px;
+     height: 200px;
+     padding: 25px;
+ }
+.timers .picture h3 ion-icon{
+    top:5px;
+    margin-left: 5px;
+    font-size: 25px;
+    position: relative;
+}
+ .picture {
+     flex: 2;
+     background: blue;
+     position: relative;
+     display: flex;
+ }
+
+ .timer {
+     flex: 1.2;
+     background-color: blue;
+     display: flex;
+     width: 70px;
+     height: 150px;
+     top:30px;
+     position: relative;
+     border-left: 5px solid rgb(246, 246, 246);
+     border-radius: 3px;
+ }
+ .clock h1{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    top:10px;
+ }
+ .clock h1 p {
+    color: gray;
+    font-size: 15px;
+ }
+ .picture .col-10{
+    color: black;
+    
+    position: relative;
+    background-color: rgb(4, 0, 255);
+ }
+ .picture h1 ,h2 ,h3{
+    padding: 0 5px;
+    color: white;
+    margin-top: 20px;
+ }
+.picture h2 ,h3{
+    font-size: 20px;
+}
+.picture h3{
+     text-decoration: underline;
 }
 
+.timer .clock{
+    width: 70px;
+    height: 50px;
+    background-color: rgb(243, 231, 231);
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    top:20px;
+    margin-left: 40px;
+}
  .abouts {
      display: flex;
      justify-content: space-evenly;
@@ -80,7 +149,7 @@
  }
 
  .text2 h3 {
-        top: 200px;
+     top: 200px;
      color: rgb(0, 0, 0);
      font-size: 50px;
      font-weight: 500;
@@ -182,8 +251,8 @@
      transform: scale(1.05);
  }
 
-  .text3 h3 {
-    margin: 40px 0px;
+ .text3 h3 {
+     margin: 40px 0px;
      color: rgb(0, 0, 0);
      font-size: 50px;
      font-weight: 500;
@@ -194,6 +263,7 @@
      align-items: center;
      justify-content: center;
  }
+
  .whats img {
      width: 100vw;
      height: 600px;
@@ -265,7 +335,7 @@
      position: relative;
      margin-right: -30px;
      position: relative;
-     left:47%;
+     left: 47%;
      bottom: 125px;
  }
 
@@ -276,14 +346,16 @@
      left: 25%;
      top: 12%;
  }
-.selector{
- display: flex;
+
+ .selector {
+     display: flex;
      justify-content: center;
      align-items: center;
      position: relative;
      width: 100vw;
      margin: none;
-}
+ }
+
  .selector button {
      color: rgb(195, 195, 201);
      word-spacing: 35px;
@@ -291,13 +363,13 @@
      font-size: 30px;
      border-radius: 25px;
      padding: 5px 40px;
-    margin: 0 20px;
+     margin: 0 20px;
  }
 
  .selector .active .btn {
-    background-color: blue;
-    color: white;
-}
+     background-color: blue;
+     color: white;
+ }
 
 
  .annouce {
@@ -331,7 +403,7 @@
      font-size: larger;
  }
 
-.annouce button{
+ .annouce button {
      color: white;
      background-color: blue;
      border: none;
@@ -343,4 +415,4 @@
      top: 10px;
      position: relative;
      text-decoration: none;
-}
+ }
