@@ -68,19 +68,100 @@
     width: 100%;
     box-sizing: border-box;
     position: relative;
-    margin-top: 300px;
+    margin-top: 250px;
 }
-
+.text2 h3{
+    top:130px;
+    color: rgb(0, 0, 0);
+    font-size:50px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic2 img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(0deg, rgba(0, 2, 215, 0.4) 0%, rgba(0, 2, 215, 0.4) 100%);
+    z-index: 1;
+}
 .about {
     position: relative;
     cursor: pointer;
     background-color: blue;
-    width: 280px;
+    width: 290px;
     height: 50vh;
+     margin: 0px 20px;
+}
+.about h4{
+    z-index: 4;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:190px;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
+}
+.vox2 .lines p{
+ position:relative;
+ color:whitesmoke;
+ top:-300px;
+ z-index: 4;
+ margin: 30px;
+display: flex;
+border-bottom: 2px solid whitesmoke;
+font-weight: 900;
+}
+.lines ion-icon {
+color: rgb(255, 255, 255);
+font-weight:900;
+position:relative;
+z-index: 4;
+margin-right:-10px;
+margin-top: 5px;
+display: flex;
+justify-items:last baseline;
+text-align: end;
+}
+.about button{
+    background-color: white;
+    text-decoration: none;
+    position: absolute;
+    z-index: 4;
+    color: rgb(2, 39, 201);
+    position: absolute;
+    top:300px;
+    padding: 10px 15px;
+    margin: 0 32%;
+    font-size: medium;
+    font-weight: 600;
+    border:none;
+}
+.blueshad{
+     z-index: 2;
+     position: absolute;
+     background: linear-gradient(0deg, rgba(0, 2, 215, 0.4) 0%, rgba(0, 2, 215, 0.4) 100%);
+    width: 100%;
+    height: 100%;
+}
+.pic1 img{
+    width: 160px;
+    height: 90px;
+    margin: 60px;
+    top: 40px;
+    padding: 5px;
+    position: absolute;
+    z-index: 3;
+    background-position-x: center;
 }
 
-.about:hover {
+.about button:hover {
     background-color: darkblue;
+    color: white;
     transform: scale(1.05);
 }
 /**
