@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -11,63 +10,38 @@
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/Tab.css">
     <link rel="stylesheet" href="/CSS/Nav.css">
     <link rel="stylesheet" href="/CSS/Slider.css">
+    <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="/CSS/Footer.css">
-    <link rel="stylesheet" href="/CSS/Tab.css">
+    <title>Yamaha Tab</title>
 
-    <title>Yamaha</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #ffffff;
-            color: #333;
-            height: 450vh;
-            overflow-x: hidden;
-        }
-
-        header {
-            position: fixed;
-            top: 1px;
-            background: linear-gradient(180deg, #cfcdcd, #c9ccce);
-            display: block;
-            z-index: 10;
-            width: 100%;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-        }
-    </style>
 </head>
 
+<header>
+    <nav class="nav bar">
+        <div class="nav-logo "><img src="/Images/yamaha_logo-black.jpg" alt=""></div>
+        <p class="nav-item"><a class="nav-link" href="#">Products <ion-icon name="chevron-down-sharp"></ion-icon></a>
+        </p>
+        <p class="nav-item"><a class="nav-link" href="#">Dealers</a></p>
+        <p class="nav-item"><a class="nav-link" href="#">Buyer's Guide <ion-icon
+                    name="chevron-down-sharp"></ion-icon></a></p>
+        <p class="nav-item"><a class="nav-link" href="#">Services <ion-icon name="chevron-down-sharp"></ion-icon></a>
+        </p>
+        <p class="nav-item"><a class="nav-link" href="#">Parts <ion-icon name="chevron-down-sharp"></ion-icon></a>
+        </p>
+        <p class="nav-item"><a class="nav-link" href="#">MotoGP </a></p>
+        <p class="nav-item"><a class="nav-link" href="#">Events <ion-icon name="chevron-down-sharp"></ion-icon></a>
+        </p>
+        <p class="nav-item"><a class="nav-link" href="#">Contest <ion-icon name="chevron-down-sharp"></ion-icon></a>
+        </p>
+        <p class="nav-item"><a class="nav-search" href="#"><ion-icon name="search-outline"></ion-icon></a></p>
+        </div>
+    </nav>
+</header>
+
 <body>
-    <header>
-        <nav class="nav bar">
-            <div class="nav-logo "><img src="/Images/yamaha_logo-black.jpg" alt=""></div>
-            <p class="nav-item"><a class="nav-link" href="#">Products <ion-icon
-                        name="chevron-down-sharp"></ion-icon></a></p>
-            <p class="nav-item"><a class="nav-link" href="#">Dealers</a></p>
-            <p class="nav-item"><a class="nav-link" href="#">Buyer's Guide <ion-icon
-                        name="chevron-down-sharp"></ion-icon></a></p>
-            <p class="nav-item"><a class="nav-link" href="#">Services <ion-icon
-                        name="chevron-down-sharp"></ion-icon></a></p>
-            <p class="nav-item"><a class="nav-link" href="#">Parts <ion-icon name="chevron-down-sharp"></ion-icon></a>
-            </p>
-            <p class="nav-item"><a class="nav-link" href="#">MotoGP </a></p>
-            <p class="nav-item"><a class="nav-link" href="#">Events <ion-icon name="chevron-down-sharp"></ion-icon></a>
-            </p>
-            <p class="nav-item"><a class="nav-link" href="#">Contest <ion-icon name="chevron-down-sharp"></ion-icon></a>
-            </p>
-            <p class="nav-item"><a class="nav-search" href="#"><ion-icon name="search-outline"></ion-icon></a></p>
-            </div>
-        </nav>
-    </header>
     <div class="carousel slide" id="abc">
         <div class="carousel-inner">
             <div class="carousel-item active cont1"><iframe class="desktop lazyload"
@@ -95,17 +69,452 @@
             </div>
         </div>
     </div>
-    
-<!-- ----------Tab Bar----------->
+    <div class="selectb text">
+        <h3>Select Your</h3>
+        <ul class="nav showbike">
+            <li class="nav-item"><a href="#Motorcycle" class="active" data-bs-toggle="tab"> <button
+                        class="btn btn-outline-primary">Motorcycle</button></a></li>
+            <li class="nav-item"><a href="#Scooter" data-bs-toggle="tab"> <button
+                        class="btn btn-outline-primary">Scooter</button></a></li>
+        </ul>
+    </div>
+    <div class="tab-content">
+        <div class="tab-pane active" id="Motorcycle">
 
-    <div class="select">
-        <h1>Select Your</h1>
-        <button class="btn btn-primary">Motorcycle</button>
-        <button class="btn btn-outline-primary">Scoooter</button>
-        <p><span>R-Series</span> MT-Series FZ-Series</p>
+            <ul class="nav nav-pills series">
+                <li class="nav-item"><a href="#R-series" class="active" data-bs-toggle="tab"> <button
+                            class="btn btn-outline ">R-series</button></a></li>
+                <li class="nav-item"><a href="#MT-series" data-bs-toggle="tab"> <button
+                            class="btn btn-outline">MT-series</button></a></li>
+                <li class="nav-item"><a href="#FZ-series" data-bs-toggle="tab"> <button
+                            class="btn btn-outline">FZ-series</button></a></li>
+            </ul>
+
+            <div class="tab-content">
+
+                <div class="tab-pane active" id="R-series">
+                    <div class="r banner">
+                        <img src="/Images/series-banner-r.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="tab-content info det">
+
+                            <div class="tab-pane active" id="r1">
+                                <div class="box1">
+                                    <span>
+                                        <a>R15V4</a>
+                                        <h1>155cc Liquid Cooled <br>Engine </h1>
+                                        <p>DiASil Cylinder</p>
+                                        <h1>Traction Control System </h1>
+                                        <p>Optimal Grip & Stability </p>
+                                        <h1>Assist & Slipper clutch </h1>
+                                        <p>with Variable Valve Actuation (VVA)</p>
+                                        <h1>Supersport </h1>
+                                        <p>Design</p>
+                                        <button class="btn btn-primary">Know More</button>
+                                    </span>
+
+                                </div>
+                                <div class="box2">
+                                    <div class="road"><img src="/Images/r15 V4-road.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="r2">
+                                <div class="box1">
+                                    <span>
+                                        <a>R3</a>
+                                        <h1>Parallel Twin </h1>
+                                        <p>321cc Liquid Cooled High Revving Engine</p>
+                                        <h1>30.9 kW </h1>
+                                        <p>Maximum Power @ 10,750 rpm</p>
+                                        <h1>29.5 Nm</h1>
+                                        <p>Maximum Torque @ 9,000 rpm</p>
+                                        <h1>Supersport </h1>
+                                        <p>Design</p>
+                                        <button class="btn btn-primary">Know More</button>
+                                    </span>
+                                </div>
+                                <div class="box2">
+                                    <div class="road"><img src="/Images/r3-road.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="r3">
+                                <div class="box1">
+                                    <span>
+                                        <a>R15M</a>
+                                        <h1>155cc Liquid Cooled <br>Engine </h1>
+                                        <p>DiASil Cylinder</p>
+                                        <h1>Color TFT Meter </h1>
+                                        <p>With Turn By Turn Navigation & Music Control </p>
+                                        <h1>Quick Shifter</h1>
+                                        <p>Aggressive Up-shifts</p>
+                                        <h1>Supersport </h1>
+                                        <p>Carbon Fibre Pattern Design</p>
+                                        <button class="btn btn-primary">Know More</button>
+                                    </span>
+                                </div>
+                                <div class="box2">
+                                    <div class="road slid"><img src="/Images/r15m-road.jpg" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="r4">
+                                <div class="box1">
+                                    <span>
+                                        <a>R15S</a>
+                                        <h1>High Performance Engine </h1>
+                                        <p>For daily sport riding</p>
+                                        <h1>Sporty Design</h1>
+                                        <p>With premium styling</p>
+                                        <button class="btn btn-primary">Know More</button>
+                                    </span>
+                                </div>
+                                <div class="box2">
+                                    <div class="road slid"><img src="/Images/r15s-road.webp" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" row bike">
+                            <div class="box3">
+
+                                <ul class="nav bikeimg  nav-pills">
+                                    <li class="nav-item"><a href="#r1" class="nav-img active" data-bs-toggle="tab">
+                                            <img src="/Images/moto-r3.jpg" alt=""><button
+                                                class="btn btn-outline">R15V4</button></a></li>
+                                    <li class="nav-item"><a href="#r2" class="nav-img" data-bs-toggle="tab">
+                                            <img src="/Images/moto-r15vh.jpg" alt=""><button
+                                                class="btn btn-outline">R3</button></a></li>
+                                    <li class="nav-item"><a href="#r3" class="nav-img" data-bs-toggle="tab">
+                                            <img src="/Images/moto-r15m.jpg" alt=""><button
+                                                class="btn btn-outline">R15M</button></a></li>
+                                    <li class="nav-item"><a href="#r4" class="nav-img" data-bs-toggle="tab">
+                                            <img src="/Images/moto-r115.jpg" alt=""><button
+                                                class="btn btn-outline">R15S</button></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="MT-series">
+                    <div class="mt banner">
+                        <img src="/Images/series-banner-mt.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+
+                        <div class="tab-content info det">
+                            <div class="tab-pane active" id="m1">
+                                <div class="box1">
+                                    <span>
+                                        <a>MT-03</a>
+                                        <h1>321cc Parallel Twin Engine</h1>
+                                        <p>High-Revving & Liquid Cooled</p>
+                                        <h1>Supersport </h1>
+                                        <p>Design</p>
+                                        <button class="btn btn-primary">Know More</button>
+                                    </span>
+                                </div>
+                                <div class="box2">
+                                    <div class="road slid"><img src="/Images/Mt03-road.jpg" alt=""></div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="m2">
+                                <div class="box1">
+                                    <span>
+                                        <a>MT-15</a>
+                                        <h1>155cc Liquid Cooled <br>Engine </h1>
+                                        <p>Assist & Slipper Clutch</p>
+                                        <h1>VVA Technology</h1>
+                                        <p>Performance-Oriented</p>
+                                        <button class="btn btn-primary">Know More</button>
+                                    </span>
+                                </div>
+                                <div class="box2">
+                                    <div class="road slid"><img src="/Images/mt15-road.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row bikes">
+                            <div class="box3">
+                                <ul class="nav bikeimg nav-pills">
+                                    <li class="nav-item"><a href="#m1" class="nav-img active" data-bs-toggle="tab">
+                                            <img src="/Images/moto-MT03.jpg" alt=""><button
+                                                class="btn btn-outline">MT-03</button></a></li>
+                                    <li class="nav-item"><a href="#m2" class="nav-img" data-bs-toggle="tab">
+                                            <img src="/Images/moto-MT15.jpg" alt=""><button
+                                                class="btn btn-outline">MT-15</button></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="FZ-Series">
+                    <div class="fz banner">
+                        <img src="/Images/series-banner-fz.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+
+                        <div class="tab-content info det">
+                            <div class="tab-pane active" id="f1">
+                                <div class="box1">
+                                    <span>
+                                        <a>FZ-FI</a>
+                                        <h1>321cc Parallel Twin Engine</h1>
+                                        <p>High-Revving & Liquid Cooled</p>
+                                        <h1>Supersport </h1>
+                                        <p>Design</p>
+                                        <button class="btn btn-primary">Know More</button>
+                                    </span>
+
+                                </div>
+                                <div class="box2">
+                                    <div class="road slid"><img src="/Images/fz-fi-sky-blue-road.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="f2">
+                                <div class="box1">
+                                    <span>
+                                        <a>FZ-S FI Hybrid</a>
+                                        <h1>Y-Connect</h1>
+                                        <p>Bluetooth Connectivity</p>
+                                        <h1>Traction Control <br>System</h1>
+                                        <p>Optimal Grip & Stability</p>
+                                        <h1>Stylish Built-In LED<br>Flashers</h1>
+                                        <p>Class(D) LED Headlight & LED Tail Light</p>
+                                        <h1>Total Balanced</h1>
+                                        <p>Design</p>
+                                        <button class="btn btn-primary">Know More</button>
+                                    </span>
+                                </div>
+                                <div class="box2">
+                                    <div class="road slid"><img src="/Images/fzs-fi-hybrid-road.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="f3">
+                                <div class="box1">
+                                    <span>
+                                        <a>FZ-S Fi</a>
+                                        <h1>High Performance Engine </h1>
+                                        <p>For daily sport riding</p>
+                                        <h1>Sporty Design</h1>
+                                        <p>With premium styling</p>
+                                        <button class="btn btn-primary">Know More</button>
+                                    </span>
+                                </div>
+                                <div class="box2">
+                                    <div class="road slid"><img src="/Images/fz-s-fi-road.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="f4">
+                                <div class="box1">
+                                    <span>
+                                        <a>FZ-S Fi Ver 4.0 <br> DLX</a>
+                                        <h1>Y-Connect </h1>
+                                        <p>For daily sport riding</p>
+                                        <h1>Traction Control <br> System</h1>
+                                        <p>Optimal Grip & Stability</p>
+                                        <h1>Muscular Street<br>Fighter</h1>
+                                        <p>Design</p>
+                                        <button class="btn btn-primary">Know More</button>
+                                    </span>
+                                </div>
+                                <div class="box2">
+                                    <div class="road slid"><img src="/Images/fzs-genz-road.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="f5">
+                                <div class="box1">
+                                    <span>
+                                        <a>FZ-S Fi Ver 4.0</a>
+                                        <h1>Y-Connect </h1>
+                                        <p>Bluetooth Connectivity</p>
+                                        <h1>Traction Control <br> System</h1>
+                                        <p>Optimal Grip & Stability</p>
+                                        <h1>LED Flashers</h1>
+                                        <p>Class(D) LED Headlight & LED Tail Light</p>
+                                        <h1>Muscular Street<br>Fighter</h1>
+                                        <p>Design</p>
+                                        <button class="btn btn-primary">Know More</button>
+                                    </span>
+                                </div>
+                                <div class="box2">
+                                    <div class="road slid"><img src="/Images/fzs-fiv4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="f6">
+                                <div class="box1">
+                                    <span>
+                                        <a>FZ-S Fi Ver 3.0</a>
+                                        <h1>Bluetooth <br> Connectivity </h1>
+                                        <p>Negative LCD Meter</p>
+                                        <h1>Disc Brakes</h1>
+                                        <p>Front & Rear</p>
+                                        <h1>Wide Rear Tyre</h1>
+                                        <p>140mm Radial</p>
+                                        <h1>Muscular Street<br>Fighter</h1>
+                                        <p>Design</p>
+                                        <button class="btn btn-primary">Know More</button>
+                                    </span>
+                                </div>
+                                <div class="box2">
+                                    <div class="road slid"><img src="/Images/fz-s-fi-road.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="f7">
+                                <div class="box1">
+                                    <span>
+                                        <a>FZ-X</a>
+                                        <h1>High Performance Engine </h1>
+                                        <p>For daily sport riding</p>
+                                        <h1>Sporty Design</h1>
+                                        <p>With premium styling</p>
+                                        <button class="btn btn-primary">Know More</button>
+                                    </span>
+                                </div>
+                                <div class="box2">
+                                    <div class="road slid"><img src="/Images/fzx-x-road.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row bikes">
+                            <div class=" box3">
+                                <ul class="nav bikeimg nav-pills">
+                                    <li class="nav-item"><a href="#f1" class="nav-img active" data-bs-toggle="tab">
+                                            <img src="/Images/moto-fz-fi.jpg" alt=""><button
+                                                class="btn btn-outline">FZ-Fi</button></a></li>
+                                    <li class="nav-item"><a href="#f2" class="nav-img" data-bs-toggle="tab">
+                                            <img src="/Images/moto-fzs-fi-hybrid.jpg" alt=""><button
+                                                class="btn btn-outline">FZ-S Fi Hybrid</button></a></li>
+                                    <li class="nav-item"><a href="#f3" class="nav-img" data-bs-toggle="tab">
+                                            <img src="/Images/fzs-fi.jpg" alt=""><button class="btn btn-outline">FZ-S
+                                                Fi</button></a></li>
+                                    <li class="nav-item"><a href="#f4" class="nav-img" data-bs-toggle="tab">
+                                            <img src="/Images/Fzs-fi-v4-dlx.jpg" alt=""><button
+                                                class="btn btn-outline">FZ-S Fi Ver 4.0 DLX</button></a></li>
+                                    <li class="nav-item"><a href="#f5" class="nav-img" data-bs-toggle="tab">
+                                            <img src="/Images/fzs-fi-v4.jpg" alt=""><button class="btn btn-outline">FZ-S
+                                                Fi Ver 4.0</button></a></li>
+                                    <li class="nav-item"><a href="#f6" class="nav-img" data-bs-toggle="tab">
+                                            <img src="/Images/fzs-fi-v3.jpg" alt=""><button class="btn btn-outline">FZ-S
+                                                Fi Ver 3.0</button></a></li>
+                                    <li class="nav-item"><a href="#f7" class="nav-img" data-bs-toggle="tab">
+                                            <img src="/Images/moto-FZ-X.jpg" alt=""><button
+                                                class="btn btn-outline">FZ-X</button></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="Scooter">
+
+            <ul class="nav">
+                <li class="nav-item"><a href="#maxi" data-bs-toggle="tab"> <button
+                            class="btn btn-outline-primary">Maxi</button></a></li>
+                <li class="nav-item"><a href="#street" data-bs-toggle="tab"> <button
+                            class="btn btn-outline-primary">Street</button></a></li>
+                <li class="nav-item"><a href="#fashion" data-bs-toggle="tab"> <button
+                            class="btn btn-outline-primary">Fashion</button></a></li>
+            </ul>
+
+            <div class="tab-content">
+
+                <div class="tab-pane" id="maxi">
+                    <H1>Content for Maxi</H1>
+
+                    <div class="tab-content det">
+                        <div class="tab-pane" id="f1">
+                            <div class="box1">
+                                <span>
+                                    <a>FZ-FI</a>
+                                    <h1>321cc Parallel Twin Engine</h1>
+                                    <p>High-Revving & Liquid Cooled</p>
+                                    <h1>Supersport </h1>
+                                    <p>Design</p>
+                                    <button class="btn btn-primary">Know More</button>
+                                </span>
+
+                            </div>
+                            <div class="box2">
+                                <div class="road slid"><img src="/Images/fzs-fi-road.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="f2">
+                            <div class="box1">
+                                <span>
+                                    <a>FZ-S FI Hybrid</a>
+                                    <h1>155cc Liquid Cooled <br>Engine </h1>
+                                    <p>Assist & Slipper Clutch</p>
+                                    <h1>VVA Technology</h1>
+                                    <p>Performance-Oriented</p>
+                                    <button class="btn btn-primary">Know More</button>
+                                </span>
+                            </div>
+                            <div class="box2">
+                                <div class="road slid"><img src="/Images/fzs-fi-hybrid-road.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="f3">
+                            <div class="box1">
+                                <span>
+                                    <a>FZ-X</a>
+                                    <h1>High Performance Engine </h1>
+                                    <p>For daily sport riding</p>
+                                    <h1>Sporty Design</h1>
+                                    <p>With premium styling</p>
+                                    <button class="btn btn-primary">Know More</button>
+                                </span>
+                            </div>
+                            <div class="box2">
+                                <div class="road slid"><img src="/Images/fzx-road.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="street">
+                    <H1>Content for Street</H1>
+                </div>
+                <div class="tab-pane" id="Fashion">
+                    <H1>Content for Fashion</H1>
+                </div>
+            </div>
+        </div>
     </div>
 
-    
+
     <div class="carousel2">
         <p1>Yamaha Events</p1>
         <iframe class="w-100 d-none d-md-block event-home-pc"
@@ -118,24 +527,46 @@
             data-gtm-yt-inspected-216="true">
         </iframe>
     </div>
-
-    <div class="About-Us row">
+    <div class="About-Us text2">
         <h3>About US</h3>
         <div class="abouts">
-            <div class="vox1 about"></div>
-            <div class="vox2 about"></div>
-            <div class="vox3 about"></div>
+            <div class="vox1 about">
+                <div class="blueshad"></div>
+                <div class="pic1"><img src="/Images/about1.jpg" alt=""> </div>
+                <div class="pic2"><img src="/Images/about-images-3.jpg" alt=""></div>
+                <h4>Feel the excitement and rush that is unique to Yamaha. It's the call of the blue.</h4>
+                <button>See More</button>
+            </div>
+            <div class="vox2 about">
+                <div class="blueshad"></div>
+                <div class="pic2"><img src="/Images/about2.jpg" alt=""> </div>
+               
+                <div class="lines">
+                <p>Yamaha’s Manufacturing <ion-icon name="chevron-forward-outline"></ion-icon> <ion-icon name="chevron-forward-outline"></ion-icon></p>
+                <p>Founding History<ion-icon name="chevron-forward-outline"></ion-icon> <ion-icon name="chevron-forward-outline"></ion-icon> </p>
+                <p> Racing <ion-icon name="chevron-forward-outline"></ion-icon> <ion-icon name="chevron-forward-outline"></ion-icon></p5>
+                <p> Yamaha’s Event <ion-icon name="chevron-forward-outline"></ion-icon> <ion-icon name="chevron-forward-outline"></ion-icon></p>
+                </div> 
+            </div>
+            <div class="vox3 about">
+                <div class="blueshad"></div>
+                <div class="pic1"><img src="/Images/about3.jpg" alt=""> </div>
+                <div class="pic2"><img src="/Images/about-images-1.jpg" alt=""></div>
+                <h4>Bring out the biker in you as we build our community of people who live, love, and breathe bikes.
+                </h4>
+                <button>See More</button>
+            </div>
         </div>
     </div>
 
-    <div class="what-new row">
+      <div class="whats text2">
         <h3>What's New ?</h3>
         <img src="/Images/whats new.jpg" alt="">
         <img src="/Images/whats new2.jpg" alt="">
-        <button class="btn btn-primary">View More</button>
+        <button>View More</button>
     </div>
 
-    <div class="show">
+     <div class="show detail">
         <div class="blue-box">
             <img src="/Images/yamaha-showroom.jpg" alt="">
             <p1>17 Oct, 2024</p1>
@@ -144,16 +575,16 @@
                 Tier-3 Cities
             </h4>
         </div>
-        <button class="btn btn-primary">Read More</button>
+        <button>Read More  </button>
+        <ion-icon name="chevron-forward-outline"></ion-icon> <ion-icon name="chevron-forward-outline"></ion-icon>
     </div>
 
-    <div class="select-moto">
-        <button class="btn btn-primary">Photos</button>
+    <div class="selector">
+        <button class="btn btn-outline-primary active">Photos</button>
         <button class="btn btn-outline-primary">Vedios</button>
-
     </div>
 
-    <div class="carousel slider2 slide" id="efg">
+     <div class="carousel slider2 slide" id="efg">
         <div class="carousel-inner moto2">
             <div class="carousel-item active cont4"><img src="/Images/scroll2.jpg" alt=""></div>
             <div class="carousel-item  cont5"><img src="/Images/scroll2-2.jpg" alt=""></div>
@@ -179,9 +610,8 @@
             &nbsp;&nbsp;&nbsp; Yamaha Motor Executive
         </p1>
         <br>
-        <button class="btn btn-primary btn-lg">Read More</button>
+        <button>Read More</button>
     </div>
-
 
     <footer>
         <div class="foot-panel1">
