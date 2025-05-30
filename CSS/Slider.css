@@ -60,8 +60,10 @@
     color: #fff;
 }
 
-/**nd Slider **/
-
+/**2nd Slider **/
+.moto2 img{
+    width: 100vw;
+}
 .cointener2 {
     z-index: 2;
     position: relative;
@@ -69,11 +71,12 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    width: 100%;
+    width: 100vw;
+    
 }
 
 .cointener2 .pic {
-    width: 100%;
+    width: 33vw;
     height: 210px;
     display: flex;
 }
