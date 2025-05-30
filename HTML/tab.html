@@ -12,34 +12,10 @@
 
     <link rel="stylesheet" href="/CSS/Tab.css">
     <link rel="stylesheet" href="/CSS/Nav.css">
+    <link rel="stylesheet" href="/CSS/Slider.css">
+    <link rel="stylesheet" href="/CSS/style.css">
     <title>Yamaha Tab</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
 
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #ffffff;
-            color: #333;
-            height: 450vh;
-            width: 100vw;
-            overflow-x: hidden;
-        }
-
-        header {
-            position: fixed;
-            top: 1px;
-            background: linear-gradient(180deg, #cfcdcd, #c9ccce);
-            display: block;
-            z-index: 10;
-            width: 100%;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-        }
-    </style>
 </head>
 
 <header>
@@ -65,14 +41,42 @@
 </header>
 
 <body>
+     <div class="carousel slide" id="abc">
+        <div class="carousel-inner">
+            <div class="carousel-item active cont1"><iframe class="desktop lazyload"
+                    src="https://www.youtube.com/embed/6rL0qp__oFg?controls=0&amp;autoplay=1&amp;mute=1&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;loop=1&amp;playlist=6rL0qp__oFg&amp;enablejsapi=1"
+                    frameborder="0" loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    referrerpolicy="no-referrer" allowfullscreen="" oncontextmenu="return false"
+                    data-gtm-yt-inspected-8854252_29="true" id="446150346" data-gtm-yt-inspected-8854252_57="true"
+                    data-gtm-yt-inspected-8854252_58="true" data-gtm-yt-inspected-210="true"
+                    data-gtm-yt-inspected-216="true" title="cotb campaign pc 1">
+                </iframe></div>
+            <div class="carousel-item  cont2"></div>
 
+            <div class="carousel-item cont3"></div>
+        </div>
+        <div class="cointener">
+            <div class="box4" data-bs-target="#abc" data-bs-slide-to="0">
+                <div class="con1 box"></div>
+            </div>
+            <div class="box5" data-bs-target="#abc" data-bs-slide-to="1">
+                <div class="con2 box"></div>
+            </div>
+            <div class="box6" data-bs-target="#abc" data-bs-slide-to="2">
+                <div class="con3 box"></div>
+            </div>
+        </div>
+    </div>
+    <div class="selectb text">
+         <h3>Select Your</h3>
     <ul class="nav showbike">
         <li class="nav-item"><a href="#Motorcycle" class="active" data-bs-toggle="tab"> <button
                     class="btn btn-outline-primary">Motorcycle</button></a></li>
         <li class="nav-item"><a href="#Scooter" data-bs-toggle="tab"> <button
                     class="btn btn-outline-primary">Scooter</button></a></li>
     </ul>
-
+    </div>
     <div class="tab-content">
         <div class="tab-pane active" id="Motorcycle">
 
@@ -202,7 +206,7 @@
 
                     <div class="content">
 
-                        <div class="tab-content det">
+                        <div class="tab-content info det">
                             <div class="tab-pane active" id="m1">
                                 <div class="box1">
                                     <span>
@@ -506,6 +510,28 @@
                     <H1>Content for Fashion</H1>
                 </div>
             </div>
+        </div>
+    </div>
+
+
+     <div class="carousel2">
+        <p1>Yamaha Events</p1>
+        <iframe class="w-100 d-none d-md-block event-home-pc"
+            src="https://www.youtube.com/embed/wziH43KAGIc?controls=0&amp;autoplay=1&amp;mute=1&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=0&amp;loop=1&amp;playlist=wziH43KAGIc&amp;enablejsapi=1"
+            frameborder="0" loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="no-referrer" allowfullscreen="" oncontextmenu="return false"
+            data-gtm-yt-inspected-8854252_29="true" id="448406525" data-gtm-yt-inspected-8854252_57="true"
+            data-gtm-yt-inspected-8854252_58="true" data-gtm-yt-inspected-210="true" title="event home pc"
+            data-gtm-yt-inspected-216="true">
+        </iframe>
+    </div>
+    <div class="About-Us text">
+        <h3>About US</h3>
+        <div class="abouts">
+            <div class="vox1 about"></div>
+            <div class="vox2 about"></div>
+            <div class="vox3 about"></div>
         </div>
     </div>
 </body>
